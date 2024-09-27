@@ -1,0 +1,172 @@
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+    background-color: yellow;
+    margin: 0px;
+    padding: 15px;
+}
+
+.main-table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.menu a:link,
+.menu a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.menu a.active {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.menu {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu img {
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.menu img,
+img[alt="header"] {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 2.5px;
+    border-bottom: 1px dashed black;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.results-table tr:last-child td,
+.results-table tr:last-child th {
+    border-bottom: none;
+}
+
+.results-table tr:first-child td,
+.results-table tr:first-child th {
+    border-bottom: 1px solid black;
+}
+
+.results-table {
+    border-collapse: collapse;
+}
+
+.results-table td,
+.results-table th {
+    padding: 2.5px;
+    border-bottom: 1px dashed black;
+}
+
+.results-table tr:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.results-table tr.has-image:hover {
+    cursor: pointer;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.section-subheading {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid black;
+}
+
+q {
+    font-style: italic;
+}
+
+blockquote {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: gold;
+    border-left: 5px solid chocolate;
+    font-style: italic;
+    color: black;
+}
+
+blockquote footer {
+    font-style: normal;
+    text-align: right;
+    margin-top: 10px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
