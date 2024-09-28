@@ -13,6 +13,12 @@ body {
     width: 100%;
 }
 
+img[alt="header"] {
+    width: 100%;
+    height: auto;
+    max-width: 780px;
+}
+
 hr {
     border: 0.5px solid black;
 }
